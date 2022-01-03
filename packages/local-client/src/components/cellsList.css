@@ -1,0 +1,22 @@
+/* CellItem */
+.cell-list-item {
+	position: relative;
+	margin: 40px 10px;
+	z-index: 1;
+}
+
+.action-bar-wrapper {
+	height: 30px;
+	width: 100%;
+	background-color: #343434;
+}
+
+/* CellList */
+.cell-list {
+	margin: 0 50px;
+}
+
+.react-draggable-transparent-selection .cell-list {
+	/* full screen height of the margin in the bottom */
+	margin-bottom: 100vh;
+}

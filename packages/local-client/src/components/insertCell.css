@@ -1,0 +1,30 @@
+.insert-cell {
+	position: relative;
+	opacity: 0.25;
+	transition: opacity 0.3s;
+}
+
+.insert-cell:hover {
+	opacity: 1;
+}
+
+.insert-cell .divider {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	right: 5%;
+	left: 5%;
+	border-bottom: 1px solid gray;
+	width: 90%;
+	z-index: -1;
+}
+
+/* force insert-cell buttons visible if cells are empty */
+.insert-cell .force-visible {
+	opacity: 1;
+}
+
+.insert-cell .insert-buttons {
+	display: flex;
+	justify-content: center;
+}
